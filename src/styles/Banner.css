@@ -1,6 +1,26 @@
-.kasa-banner {
-    color: black;
-    text-align: right;
-    padding: 32px;
-    border-bottom: solid 3px black;
+html{
+    font-family: 'Montserrat';
 }
+
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+}
+
+.navbar__link a {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #FF6060;
+    text-decoration: none;
+}
+
+.navbar__link :nth-child(2) {
+    padding-left: 57px;
+}
+

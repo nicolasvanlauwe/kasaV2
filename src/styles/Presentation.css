@@ -1,0 +1,23 @@
+.bg-presentation {
+    position: relative;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+.bg-presentation img {
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    filter: brightness(70%);
+    width: 100%;
+}
+
+.bg-presentation h1 {
+    position: absolute;
+    z-index: 2;
+    top: 95px;
+    font-size: 48px;
+    color: white;
+}

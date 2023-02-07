@@ -1,0 +1,25 @@
+.all-rent__card {
+    text-decoration: none;
+    background-color: #FF6060;
+    background: linear-gradient(180deg, #FF6060 0%, #6e2929 100%);
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+}
+
+.all-rent__card p {
+    padding: 0px 10px;
+    margin: auto 0;
+    color: white;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.all-rent__card__img{
+    border-radius: 10px 10px 0px 0px;
+    width: auto;
+    height: 280px;
+    object-fit: cover;
+}
