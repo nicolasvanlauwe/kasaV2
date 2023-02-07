@@ -1,0 +1,17 @@
+.charte__card {
+    padding: 10px 30px 10px 17px;
+    background-color: #ff6060;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.charte__card h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.charte__card i {
+    color: white;
+    font-size: 20px;
+}
