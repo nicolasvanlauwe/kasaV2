@@ -1,0 +1,33 @@
+.first-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-info h1 {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.first-info__renter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-info__renter p {
+    color: #ff6060;
+    width: 100px;
+    text-align: right;
+    padding-right: 5px;
+    line-height: 30px;
+}
+
+.first-info__renter__img {
+    border-radius: 50px;
+    width: 64px;
+    height: 64px;
+    background-color: #c4c4c4;
+}

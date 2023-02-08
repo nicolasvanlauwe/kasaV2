@@ -1,32 +1,29 @@
-.charte__card {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.third-info__card {
+    width: 48%;
 }
 
-.charte__card__header {
+.third-info__card__header {
     position: relative;
     z-index: 1;
-    padding: 10px 30px 10px 17px;
-    background-color: #ff6060;
-    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    color: white;
     display: flex;
     justify-content: space-between;
+    background-color: #ff6060;
+    border-radius: 10px;
 }
 
-.charte__card__header h2 {
-    color: white;
-    font-size: 24px;
+.third-info__card__header h3 {
+    font-weight: 500;
+    font-size: 18px;
 }
 
-.charte__card__header i {
-    color: white;
+.third-info__card__header i {
     font-size: 20px;
     cursor: pointer;
 }
 
-.charte__card__body {
+.third-info__card__body {
     z-index: 0;
     position: relative;
     top: -5px;
@@ -34,23 +31,23 @@
     background-color: #f6f6f6;
     border-radius: 5px;
 }
-.charte__card__body.active {
+
+.third-info__card__body.active {
     opacity: 1;
     visibility: visible;
     display: block;
     transform: translateY(0);
     transition: 0.5s ease;
 }
-.charte__card__body.inactive {
+.third-info__card__body.inactive {
     opacity: 0;
     display: none;
     visibility: hidden;
     transform: translateY(-20px);
     transition: 0.5s ease;
 }
-
-.charte__card__body p {
-    font-weight: 400;
-    font-size: 24px;
+.third-info__card__body p {
     color: #ff6060;
+    font-weight: 400;
+    font-size: 18px;
 }

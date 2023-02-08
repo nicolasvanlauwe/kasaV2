@@ -1,0 +1,30 @@
+.location {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.second-info {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-info__badge {
+    display: flex;
+    gap: 10px;
+}
+
+.second-info__badge p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 150px;
+    color: white;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: #ff6060;
+    border-radius: 10px;
+}
