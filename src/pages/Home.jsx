@@ -1,16 +1,18 @@
 import Banner from '../components/Banner'
+import Footer from '../components/Footer'
 import Presentation from '../components/Presentation'
 import RentList from '../components/RentList'
-
 
 function Home() {
     return (
         <div>
-            <Banner/>
-            <Presentation/>
-            <RentList/>
+            <div className="container">
+                <Banner />
+                <Presentation />
+                <RentList />
+            </div>
+            <Footer />
         </div>
-            
     )
 }
 

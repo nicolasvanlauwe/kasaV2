@@ -1,9 +1,10 @@
 .all-rent {
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     border-radius: 25px;
     padding: 56px 0px;
     display: flex;
     flex-wrap: wrap;
     gap: 60px;
     justify-content: center;
+    margin-bottom: 5%;
 }

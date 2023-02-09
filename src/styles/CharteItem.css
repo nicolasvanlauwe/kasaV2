@@ -1,8 +1,8 @@
 .charte__card {
-    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 
 .charte__card__header {
@@ -36,20 +36,22 @@
 }
 .charte__card__body.active {
     opacity: 1;
+    max-height: 300px;
     visibility: visible;
-    display: block;
     transform: translateY(0);
-    transition: 0.5s ease;
+    transition: 0.3s ease-in-out;
+    margin-bottom: 20px;
 }
 .charte__card__body.inactive {
     opacity: 0;
-    display: none;
+    max-height: 0;
     visibility: hidden;
-    transform: translateY(-20px);
-    transition: 0.5s ease;
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
 }
 
 .charte__card__body p {
+    display: block;
     font-weight: 400;
     font-size: 24px;
     color: #ff6060;

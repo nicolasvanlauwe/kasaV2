@@ -130,14 +130,14 @@ table {
 
 /*************** Fin du reset ***************/
 
-body {
+.container {
     margin: 0 auto;
     max-width: 1440px;
     padding: 40px 100px 0px 100px;
 }
 
 * {
-  font-family: 'Montserrat';
-  scroll-behavior: smooth;
-  box-sizing: border-box;
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }

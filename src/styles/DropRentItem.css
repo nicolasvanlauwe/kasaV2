@@ -1,5 +1,6 @@
 .third-info__card {
     width: 48%;
+    margin-bottom: 10%;
 }
 
 .third-info__card__header {
@@ -34,18 +35,19 @@
 
 .third-info__card__body.active {
     opacity: 1;
+    max-height: 300px;
     visibility: visible;
-    display: block;
     transform: translateY(0);
-    transition: 0.5s ease;
+    transition: 0.3s ease-in-out;
 }
 .third-info__card__body.inactive {
     opacity: 0;
-    display: none;
+    max-height: 0;
     visibility: hidden;
-    transform: translateY(-20px);
-    transition: 0.5s ease;
+    transform: translateY(-10px);
+    transition: 0.3s ease-in-out;
 }
+
 .third-info__card__body p {
     color: #ff6060;
     font-weight: 400;
