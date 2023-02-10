@@ -16,7 +16,7 @@ const AllInfoRent = () => {
 
     return (
         <div>
-            <ImgRent imgRent={data.cover} />
+            <ImgRent imgRent={data.pictures} />
             <FirstInfoRent
                 title={data.title}
                 hostName={data.host.name}
