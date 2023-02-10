@@ -3,7 +3,6 @@ import '../styles/DropRentItem.css'
 
 const EquipementItem = ({ title, text }) => {
     const [open, setOpen] = useState(false)
-    console.log(Array.isArray(text))
     return (
         <div className="third-info__card">
             <div

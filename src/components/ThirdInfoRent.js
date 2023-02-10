@@ -3,7 +3,6 @@ import '../styles/ThirdInfoRent.css'
 import DropRentItem from './DropRentItem'
 
 const ThirdInfoRent = ({ description, equipments }) => {
-    const [open, setOpen] = useState(false)
     return (
         <div className="third-info">
             <DropRentItem title="Description" text={description} />

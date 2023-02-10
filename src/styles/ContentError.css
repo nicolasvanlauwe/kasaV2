@@ -1,11 +1,10 @@
-
-
 .content-error {
     margin-top: 7%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10%;
 }
 
 .number {

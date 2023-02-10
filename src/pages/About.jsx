@@ -1,9 +1,13 @@
+import { useEffect } from 'react'
 import Banner from '../components/Banner'
 import CharteList from '../components/CharteList'
 import Footer from '../components/Footer'
 import PresentationAbout from '../components/PresentationAbout'
 
 function About() {
+    useEffect(() => {
+        document.title = 'À propos'
+    }, [])
     return (
         <div>
             <div className="container">

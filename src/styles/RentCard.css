@@ -1,7 +1,7 @@
 .all-rent__card {
     text-decoration: none;
-    background-color: #FF6060;
-    background: linear-gradient(180deg, #FF6060 0%, #6e2929 100%);
+    background-color: #ff6060;
+    background: linear-gradient(180deg, #ff6060 0%, #ae3333 100%);
     border-radius: 10px;
     width: 340px;
     height: 340px;
@@ -17,7 +17,7 @@
     line-height: 20px;
 }
 
-.all-rent__card__img{
+.all-rent__card__img {
     border-radius: 10px 10px 0px 0px;
     width: auto;
     height: 280px;
