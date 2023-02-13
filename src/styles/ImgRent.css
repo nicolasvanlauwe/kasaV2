@@ -1,13 +1,4 @@
-/* .img-logement {
-    
-    width: 100%;
-    object-fit: cover;
-    height: 360px;
-    
-    border-radius: 25px;
-} */
 .container-slider {
-    /* max-width: 700px; */
     height: 500px;
     margin: 2% auto 2% auto;
     position: relative;
@@ -75,4 +66,27 @@
     top: 50%;
     right: 20px;
     transform: translateY(-60%);
+}
+
+@media only screen and (max-width: 767px) {
+    .container-slider {
+        margin-top: 7%;
+    }
+    .container-slider p {
+        display: none;
+    }
+    .btn-slide i {
+        color: white;
+        font-size: 40px;
+    }
+    .prev {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .next {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
 }

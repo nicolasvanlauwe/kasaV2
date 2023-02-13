@@ -9,7 +9,7 @@ function About() {
         document.title = 'À propos'
     }, [])
     return (
-        <div>
+        <div className="content">
             <div className="container">
                 <Banner />
                 <PresentationAbout />

@@ -12,7 +12,16 @@ html {
     justify-content: space-between;
     max-width: 1440px;
 }
+.navbar__link a {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #ff6060;
+    text-decoration: none;
+}
 
+.navbar__link :nth-child(2) {
+    margin-left: 57px;
+}
 .navbar--active {
     position: relative;
 }
@@ -43,13 +52,17 @@ html {
     }
 }
 
-.navbar__link a {
-    font-family: 'Montserrat';
-    font-size: 24px;
-    color: #ff6060;
-    text-decoration: none;
-}
-
-.navbar__link :nth-child(2) {
-    margin-left: 57px;
+@media only screen and (max-width: 767px) {
+    .navbar__logo {
+        width: 145px;
+        height: 47px;
+    }
+    .navbar__link a {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .navbar__link :nth-child(2) {
+        margin-left: 20px;
+    }
 }

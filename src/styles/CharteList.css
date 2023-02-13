@@ -4,7 +4,14 @@
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-    width: 1050px;
     gap: 0px;
+    padding: 0 100px;
     margin-bottom: 5%;
+}
+@media only screen and (max-width: 991px) {
+    .charte {
+        display: block;
+        width: 100%;
+        padding: 0;
+    }
 }

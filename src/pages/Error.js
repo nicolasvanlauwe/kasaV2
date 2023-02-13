@@ -7,7 +7,7 @@ const Error = () => {
         document.title = 'Erreur 404'
     }, [])
     return (
-        <div>
+        <div className="content">
             <div className="container">
                 <ContentError />
             </div>

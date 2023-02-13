@@ -7,17 +7,41 @@
 }
 
 .bg-presentation img {
+    object-fit: cover;
     position: relative;
     z-index: 1;
     border-radius: 25px;
     filter: brightness(70%);
     width: 100%;
+    height: 223px;
 }
 
 .bg-presentation h1 {
     position: absolute;
     z-index: 2;
-    top: 95px;
+    top: 50%;
+    transform: translateY(-50%);
     font-size: 48px;
     color: white;
+}
+
+@media only screen and (max-width: 991px) {
+    .bg-presentation h1 {
+        padding-left: 15px;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-presentation {
+        display: block;
+    }
+    .bg-presentation img {
+        border-radius: 10px;
+        height: 111px;
+    }
+    .bg-presentation h1 {
+        font-size: 24px;
+        width: 230px;
+    }
 }

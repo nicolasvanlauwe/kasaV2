@@ -15,7 +15,7 @@ const Rent = () => {
         document.title = data.title
     }, [])
     return (
-        <div>
+        <div className="content">
             <div className="container">
                 <Banner />
                 <AllInfoRent />

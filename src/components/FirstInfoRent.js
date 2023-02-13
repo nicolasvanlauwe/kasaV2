@@ -1,17 +1,15 @@
 import React from 'react'
 import '../styles/FirstInfoRent.css'
 
-const FirstInfoRent = ({ title, hostName, hostPicture }) => {
+const FirstInfoRent = ({ title, location, tags }) => {
     return (
         <div className="first-info">
             <h1>{title}</h1>
-            <div className="first-info__renter">
-                <p>{hostName}</p>
-                <img
-                    src={hostPicture}
-                    className="first-info__renter__img"
-                    alt="Hôte"
-                />
+            <h3 className="location">{location}</h3>
+            <div className="first-info__badge">
+                {tags.map((tag) => (
+                    <p key={tag}>{tag}</p>
+                ))}
             </div>
         </div>
     )

@@ -1,14 +1,13 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import '../styles/ImgRent.css'
 
 const BtnSlider = ({ direction, moveSlide, onlyOne }) => {
-    console.log(onlyOne)
     return (
         <button
             className={
                 direction === 'next' ? 'btn-slide next' : 'btn-slide prev'
             }
-            id={onlyOne == true ? 'disapear' : ''}
+            id={onlyOne === true ? 'disapear' : ''}
             onClick={moveSlide}
         >
             <i

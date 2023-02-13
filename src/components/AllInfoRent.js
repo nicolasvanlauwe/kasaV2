@@ -4,6 +4,7 @@ import ImgRent from './ImgRent'
 import { useLocation } from 'react-router-dom'
 import SecondInfoRent from './SecondInfoRent'
 import ThirdInfoRent from './ThirdInfoRent'
+import '../styles/AllInfoRent.css'
 // let data = require('../data/logements.json')
 
 const AllInfoRent = () => {
@@ -17,16 +18,19 @@ const AllInfoRent = () => {
     return (
         <div>
             <ImgRent imgRent={data.pictures} />
-            <FirstInfoRent
-                title={data.title}
-                hostName={data.host.name}
-                hostPicture={data.host.picture}
-            />
-            <SecondInfoRent
-                location={data.location}
-                tags={data.tags}
-                rating={data.rating}
-            />
+            <div className="info-rent">
+                <FirstInfoRent
+                    title={data.title}
+                    location={data.location}
+                    tags={data.tags}
+                />
+                <SecondInfoRent
+                    hostName={data.host.name}
+                    hostPicture={data.host.picture}
+                    rating={data.rating}
+                />
+            </div>
+
             <ThirdInfoRent
                 description={data.description}
                 equipments={data.equipments}

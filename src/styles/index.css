@@ -129,8 +129,14 @@ table {
 }
 
 /*************** Fin du reset ***************/
+.content {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 
 .container {
+    flex-grow: 1;
     margin: 0 auto;
     max-width: 1440px;
     padding: 40px 100px 0px 100px;
@@ -140,4 +146,15 @@ table {
     font-family: 'Montserrat';
     scroll-behavior: smooth;
     box-sizing: border-box;
+}
+
+@media only screen and (max-width: 991px) {
+    .container {
+        padding: 20px 20px 0px 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .container {
+        margin: 0;
+    }
 }

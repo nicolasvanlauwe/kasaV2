@@ -5,7 +5,21 @@
     overflow: hidden;
 }
 
+.bg-presentation--apropos {
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.bg-presentation--apropos img {
+    height: 223px;
+    object-fit: cover;
+    width: 100%;
+    filter: brightness(70%);
+    border-radius: 10px;
+}
+
 .charte__card__header {
+    align-items: center;
     position: relative;
     z-index: 1;
     padding: 10px 30px 10px 17px;
@@ -55,4 +69,22 @@
     font-weight: 400;
     font-size: 24px;
     color: #ff6060;
+}
+
+@media only screen and (max-width: 767px) {
+    .bg-presentation--apropos img {
+        height: 223px;
+        object-fit: cover;
+    }
+    .charte__card__body p {
+        font-size: 15px;
+    }
+    .charte__card__header h2 {
+        color: white;
+        font-size: 18px;
+    }
+    .charte__card__header {
+        align-items: center;
+        padding: 10px 15px 10px 12px;
+    }
 }
