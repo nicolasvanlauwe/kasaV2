@@ -9,6 +9,7 @@
 }
 
 .number {
+    margin-top: 10%;
     color: #ff6060;
     font-weight: 700;
     font-size: 288px;
@@ -24,7 +25,7 @@
 
 .link {
     color: #ff6060;
-    margin-top: 13%;
+    margin-top: 20%;
     font-weight: 500;
     font-size: 18px;
 }
