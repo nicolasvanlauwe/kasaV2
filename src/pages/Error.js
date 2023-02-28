@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import ContentError from '../components/ContentError'
 import Footer from '../components/Footer'
+import Banner from '../components/Banner'
 
 const Error = () => {
     useEffect(() => {
@@ -9,6 +10,7 @@ const Error = () => {
     return (
         <div className="content">
             <div className="container">
+                <Banner />
                 <ContentError />
             </div>
 

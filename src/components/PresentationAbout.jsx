@@ -1,4 +1,3 @@
-import '../styles/Presentation.css'
 import bg from '../assets/bg-apropos.png'
 
 function PresentationAbout() {
